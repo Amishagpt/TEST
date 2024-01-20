@@ -1,0 +1,92 @@
+     SECTION 1- NAVBAR AND HERO SECTION 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <div class="container">
+      <div class=" navbar">
+
+        <div class="logo-container">
+
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/000/626/787/non_2x/circle-logo-vector-templates.jpg"
+            class="logo">
+          <div class="logo-text">Plus</div>
+
+        </div>
+
+
+        <div class="nav-items">
+          <div> <a href="#Projects"> Projects</a></div>
+          <div> <a href="#skills"> Skills</a></div>
+          <div> <a href="#contactme"> Contact me</a></div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-section">
+      <div class="faded-text"> PANDA </div>
+
+      <div class="hero-section-left">
+
+        <div class="hero-section-heading"> Hii! Amisha Gupta</div>
+        <div class="hero-section-heading  hero-section-subheading">
+          I am a <span class="role"></span>
+        </div>
+
+        <div class="hero-section-description">
+          I am a SE and here is my portfolio website.Here, u will
+          learn about my jouney as a SDE.
+
+        </div>
+
+        <div class="btn-pink" id="pink"> Hire Me</div>
+
+      </div>
+
+      <div class="hero-section-right">
+
+        <div class=" absolute icon user-image">
+          <img src="https://t4.ftcdn.net/jpg/02/79/06/27/240_F_279062737_h0N9fIDZr67shFSUyrZ9PdUQhgrFhnAF.jpg" alt=""
+          width="400 " />
+           </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js"  crossorigin="anonymous"></script>
+  <script>
+   var typeData= new Typed(".role",{
+    strings: [
+      "Full Stack Developer",
+      "Web Developer",
+      "UI-UX Designer",
+      "Backend Developer",
+      "Coder",
+    ],
+
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1000,
+  });
+
+  </script>
+</body>
+
+</html>
