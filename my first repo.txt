@@ -1,3 +1,5 @@
+// it all starts with hello world 
+
 //CREATED A MAX HEAP 
 #include <iostream>
 #include <queue>
